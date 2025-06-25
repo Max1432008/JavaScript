@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Anmelden.css">
+</head>
+<body id="body">
+    <div class="position_rect">
+
+        <div id="rectaround" class="rectaround">
+            <h2 id="headline">Anmelden</h2>
+            <div class="position_input">
+                <div class="Leiste_benutzername">
+                    <input type="text" id="Benutzername" placeholder="Benutzername">
+                </div>
+                <div id="Hinweis"> </div> 
+                <div class="Leiste_Passwort">
+                    <input type="password" id="Benutzerpasswort" placeholder="Benutzerpasswort" >
+                    <button id="button_eye" onclick="eye_top()">
+                        <img id="eye" src="Fotos/eye see.png"  alt="">
+                    </button>
+                </div>
+                <div id="Hinweis1"> </div> 
+
+                <!--
+                    <input type="text" placeholder="EMail Adresse eingeben" id="BenutzerEmail">
+                    <div id="Hinweis2"> </div>
+                    -->
+            
+            </div>
+            <button type="text" id="login" onclick="log_in()"> Anmelden</button>
+            <button id="Registrieren" onclick="Switch()">Zum Registrieren</button>
+        </div>
+    </div>
+    <button onclick="alleslöschen()" style="padding-bottom: 5px; padding-top: 5px;">löschen der Liste</button>
+
+    <script src="Anmelden.js"></script>
+
+</body>
+</html>
